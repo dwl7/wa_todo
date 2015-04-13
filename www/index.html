@@ -3,12 +3,27 @@
 <head>
 	<title> ToDo List</title>
 	<link rel="stylesheet" type="text/css" href="css/index.css"/>
-	<script type="text/javascript" language="JavaScript">
-	</script>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+
+    <script type="text/javascript" src="js/app.js"></script>
+
 </head>
 
-<body>
-	
+<body onload="loadToDoList()">
+
+
+    <div class="">
+        <ul class>
+            <br/><br/><br/>
+            <input type="button" value="Add To Do" onclick="createNewToDo()"/>
+            <input type="button" value="Remove Completed Tasks" onclick="removeCompletedTasks()"/>
+            <br/><br/>
+            <table id="dataTable" width="100%" border="1">
+        </ul>
+        
+        
+    </div>
+        
 </body>
 
 
